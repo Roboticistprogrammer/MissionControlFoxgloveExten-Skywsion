@@ -13,7 +13,7 @@ import {
 import Lang from "../languages/a.json";
 import { useAtom } from "jotai";
 import { toast } from "react-hot-toast";
-import { PanelExtensionContext } from "@foxglove/studio";
+import { PanelExtensionContext } from "@foxglove/extension";
 import { ImMap2 } from "react-icons/im";
 import { RiStarSFill } from "react-icons/ri";
 import { GiPathDistance } from "react-icons/gi";

@@ -5,7 +5,7 @@ import { atom } from "jotai";
 import { atomWithStorage, createJSONStorage } from "jotai/utils";
 import { SyncStorage } from "jotai/vanilla/utils/atomWithStorage";
 import { TransformStamped } from "../interfaces/ros";
-import { MessageEvent } from "@foxglove/studio";
+import { MessageEvent } from "@foxglove/extension";
 
 export const localeAtom = atomWithStorage<"en" | "fr" | "jp" | "de" | "tr" | "ru">(
   "localelanguage",

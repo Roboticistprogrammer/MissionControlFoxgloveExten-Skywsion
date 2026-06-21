@@ -1,4 +1,4 @@
-import { PanelExtensionContext } from "@foxglove/studio";
+import { PanelExtensionContext } from "@foxglove/extension";
 import {
   checkpointAtom,
   followMarkerAtom,
